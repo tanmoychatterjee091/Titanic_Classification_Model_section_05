@@ -1,0 +1,112 @@
+name: train
+run_id: install_deps
+env APPDATA: C:\Users\tanmo\AppData\Roaming
+env COMSPEC: C:\WINDOWS\system32\cmd.exe
+env HOME: C:\Users\tanmo
+env MSYSTEM: MINGW64
+env NUMBER_OF_PROCESSORS: 4
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+env PKG_CONFIG_PATH: C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig
+env PROCESSOR_ARCHITECTURE: AMD64
+env PROGRAMFILES: C:\Program Files
+env PROGRAMDATA: C:\ProgramData
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env SYSTEMDRIVE: C:
+env SYSTEMROOT: C:\WINDOWS
+env TEMP: C:\Users\tanmo\AppData\Local\Temp
+env TMP: C:\Users\tanmo\AppData\Local\Temp
+env USERPROFILE: C:\Users\tanmo
+env WINDIR: C:\WINDOWS
+env PATH: C:\Users\tanmo\Downloads\My_Projects_in_Github\Titanic_Classification_Model_section_05\.tox\test_package\Scripts;C:\Users\tanmo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\160\DTS\Binn;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn;C:\Program Files\Azure Data Studio\bin;PS C;C:\Program Files\Git\Users\tanmo\OneDrive\Desktop\Python projects;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Users\tanmo\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\tanmo\AppData\Local\Programs\Python\Python39;C:\Users\tanmo\AppData\Local\Microsoft\WindowsApps;C:\Users\tanmo\AppData\Local\Programs\Python\Python312;C:\Users\tanmo\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\tanmo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+env PYTHONHASHSEED: 721
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env TOX_ENV_NAME: train
+env TOX_WORK_DIR: C:\Users\tanmo\Downloads\My_Projects_in_Github\Titanic_Classification_Model_section_05\.tox
+env TOX_ENV_DIR: C:\Users\tanmo\Downloads\My_Projects_in_Github\Titanic_Classification_Model_section_05\.tox\test_package
+env VIRTUAL_ENV: C:\Users\tanmo\Downloads\My_Projects_in_Github\Titanic_Classification_Model_section_05\.tox\test_package
+metadata pid: 17240
+cwd: C:\Users\tanmo\Downloads\My_Projects_in_Github\Titanic_Classification_Model_section_05
+allow: C:\Users\tanmo\Downloads\My_Projects_in_Github\Titanic_Classification_Model_section_05\.tox\test_package\Scripts\*
+cmd: pip install -r requirements/test_requirements.txt
+exit_code: 0
+Collecting numpy<1.25.0,>=1.21.0 (from -r requirements\requirements.txt (line 4))
+  Using cached numpy-1.24.4-cp39-cp39-win_amd64.whl.metadata (5.6 kB)
+Collecting pandas<2.0.0,>=1.3.5 (from -r requirements\requirements.txt (line 5))
+  Using cached pandas-1.5.3-cp39-cp39-win_amd64.whl.metadata (12 kB)
+Collecting pydantic<2.0.0,>=1.8.1 (from -r requirements\requirements.txt (line 6))
+  Using cached pydantic-1.10.18-cp39-cp39-win_amd64.whl.metadata (153 kB)
+Collecting scikit-learn<2.0.0,>=1.1.3 (from -r requirements\requirements.txt (line 7))
+  Using cached scikit_learn-1.5.2-cp39-cp39-win_amd64.whl.metadata (13 kB)
+Collecting strictyaml<2.0.0,>=1.3.2 (from -r requirements\requirements.txt (line 8))
+  Using cached strictyaml-1.7.3-py3-none-any.whl.metadata (11 kB)
+Collecting ruamel.yaml<1.0.0,>=0.16.12 (from -r requirements\requirements.txt (line 9))
+  Using cached ruamel.yaml-0.18.6-py3-none-any.whl.metadata (23 kB)
+Collecting feature-engine<2.0.0,>=1.0.2 (from -r requirements\requirements.txt (line 10))
+  Using cached feature_engine-1.8.1-py2.py3-none-any.whl.metadata (9.8 kB)
+Collecting joblib<2.0.0,>=1.0.1 (from -r requirements\requirements.txt (line 11))
+  Using cached joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting pytest<8.0.0,>=7.2.0 (from -r requirements/test_requirements.txt (line 4))
+  Using cached pytest-7.4.4-py3-none-any.whl.metadata (7.9 kB)
+Collecting python-dateutil>=2.8.1 (from pandas<2.0.0,>=1.3.5->-r requirements\requirements.txt (line 5))
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas<2.0.0,>=1.3.5->-r requirements\requirements.txt (line 5))
+  Using cached pytz-2024.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting typing-extensions>=4.2.0 (from pydantic<2.0.0,>=1.8.1->-r requirements\requirements.txt (line 6))
+  Using cached typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting scipy>=1.6.0 (from scikit-learn<2.0.0,>=1.1.3->-r requirements\requirements.txt (line 7))
+  Using cached scipy-1.13.1-cp39-cp39-win_amd64.whl.metadata (60 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn<2.0.0,>=1.1.3->-r requirements\requirements.txt (line 7))
+  Using cached threadpoolctl-3.5.0-py3-none-any.whl.metadata (13 kB)
+Collecting ruamel.yaml.clib>=0.2.7 (from ruamel.yaml<1.0.0,>=0.16.12->-r requirements\requirements.txt (line 9))
+  Using cached ruamel.yaml.clib-0.2.8-cp39-cp39-win_amd64.whl.metadata (2.3 kB)
+INFO: pip is looking at multiple versions of feature-engine to determine which version is compatible with other requirements. This could take a while.
+Collecting feature-engine<2.0.0,>=1.0.2 (from -r requirements\requirements.txt (line 10))
+  Using cached feature_engine-1.8.0-py2.py3-none-any.whl.metadata (9.8 kB)
+  Using cached feature_engine-1.7.0-py2.py3-none-any.whl.metadata (9.8 kB)
+  Using cached feature_engine-1.6.2-py2.py3-none-any.whl.metadata (8.8 kB)
+Collecting statsmodels>=0.11.1 (from feature-engine<2.0.0,>=1.0.2->-r requirements\requirements.txt (line 10))
+  Using cached statsmodels-0.14.3-cp39-cp39-win_amd64.whl.metadata (9.5 kB)
+Collecting iniconfig (from pytest<8.0.0,>=7.2.0->-r requirements/test_requirements.txt (line 4))
+  Using cached iniconfig-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting packaging (from pytest<8.0.0,>=7.2.0->-r requirements/test_requirements.txt (line 4))
+  Using cached packaging-24.1-py3-none-any.whl.metadata (3.2 kB)
+Collecting pluggy<2.0,>=0.12 (from pytest<8.0.0,>=7.2.0->-r requirements/test_requirements.txt (line 4))
+  Using cached pluggy-1.5.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting exceptiongroup>=1.0.0rc8 (from pytest<8.0.0,>=7.2.0->-r requirements/test_requirements.txt (line 4))
+  Using cached exceptiongroup-1.2.2-py3-none-any.whl.metadata (6.6 kB)
+Collecting tomli>=1.0.0 (from pytest<8.0.0,>=7.2.0->-r requirements/test_requirements.txt (line 4))
+  Using cached tomli-2.0.1-py3-none-any.whl.metadata (8.9 kB)
+Collecting colorama (from pytest<8.0.0,>=7.2.0->-r requirements/test_requirements.txt (line 4))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.1->pandas<2.0.0,>=1.3.5->-r requirements\requirements.txt (line 5))
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting patsy>=0.5.6 (from statsmodels>=0.11.1->feature-engine<2.0.0,>=1.0.2->-r requirements\requirements.txt (line 10))
+  Using cached patsy-0.5.6-py2.py3-none-any.whl.metadata (3.5 kB)
+Using cached numpy-1.24.4-cp39-cp39-win_amd64.whl (14.9 MB)
+Using cached pandas-1.5.3-cp39-cp39-win_amd64.whl (10.9 MB)
+Using cached pydantic-1.10.18-cp39-cp39-win_amd64.whl (2.2 MB)
+Using cached scikit_learn-1.5.2-cp39-cp39-win_amd64.whl (11.0 MB)
+Using cached strictyaml-1.7.3-py3-none-any.whl (123 kB)
+Using cached ruamel.yaml-0.18.6-py3-none-any.whl (117 kB)
+Using cached feature_engine-1.6.2-py2.py3-none-any.whl (328 kB)
+Using cached joblib-1.4.2-py3-none-any.whl (301 kB)
+Using cached pytest-7.4.4-py3-none-any.whl (325 kB)
+Using cached exceptiongroup-1.2.2-py3-none-any.whl (16 kB)
+Using cached pluggy-1.5.0-py3-none-any.whl (20 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pytz-2024.2-py2.py3-none-any.whl (508 kB)
+Using cached ruamel.yaml.clib-0.2.8-cp39-cp39-win_amd64.whl (118 kB)
+Using cached scipy-1.13.1-cp39-cp39-win_amd64.whl (46.2 MB)
+Using cached statsmodels-0.14.3-cp39-cp39-win_amd64.whl (9.9 MB)
+Using cached packaging-24.1-py3-none-any.whl (53 kB)
+Using cached threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Using cached typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Using cached patsy-0.5.6-py2.py3-none-any.whl (233 kB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: pytz, typing-extensions, tomli, threadpoolctl, six, ruamel.yaml.clib, pluggy, packaging, numpy, joblib, iniconfig, exceptiongroup, colorama, scipy, ruamel.yaml, python-dateutil, pytest, pydantic, patsy, strictyaml, scikit-learn, pandas, statsmodels, feature-engine
+Successfully installed colorama-0.4.6 exceptiongroup-1.2.2 feature-engine-1.6.2 iniconfig-2.0.0 joblib-1.4.2 numpy-1.24.4 packaging-24.1 pandas-1.5.3 patsy-0.5.6 pluggy-1.5.0 pydantic-1.10.18 pytest-7.4.4 python-dateutil-2.9.0.post0 pytz-2024.2 ruamel.yaml-0.18.6 ruamel.yaml.clib-0.2.8 scikit-learn-1.5.2 scipy-1.13.1 six-1.16.0 statsmodels-0.14.3 strictyaml-1.7.3 threadpoolctl-3.5.0 tomli-2.0.1 typing-extensions-4.12.2
